@@ -190,7 +190,7 @@ img {
     background-image: url(../img/telefono.png);
 }
 
-.wepb .telefono::before{
+.webp .telefono::before{
     background-image: url(../img/telefono.webp);
 }
 .avif .telefono::before{
@@ -290,7 +290,7 @@ img {
     background-image: url(../img/nosotros.jpg);
 }
 
-.wepb .nosotros{
+.webp .nosotros{
     background-image: url(../img/nosotros.webp);
 }
 .avif .nosotros{
@@ -357,7 +357,7 @@ img {
     background-image: url(../img/modelo_basico.jpg);
 }
 
-.wepb .basico{
+.webp .basico{
     background-image: url(../img/modelo_basico.webp);
 }
 .avif .basico{
@@ -394,7 +394,7 @@ img {
     background-image: url(../img/modelo_premier.jpg);
 }
 
-.wepb .premier{
+.webp .premier{
     background-image: url(../img/modelo_premier.webp);
 }
 .avif .premier{
@@ -435,7 +435,7 @@ img {
     background-image: url(../img/modelo_elite.jpg);
 }
 
-.wepb .elite{
+.webp .elite{
     background-image: url(../img/modelo_elite.webp);
 }
 .avif .elite{
@@ -551,7 +551,7 @@ img {
     background-image: url(../img/footer_bg.jpg);
 }
 
-.wepb .footer{
+.webp .footer{
     background-image: url(../img/footer_bg.webp);
 }
 .avif .footer{
