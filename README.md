@@ -39,7 +39,7 @@ _Las técnologias utilizadas para el desarrollo fueron:_
 
 ## Reporte de Lighthouse 💡 
 
-
+<img width="890" alt="Captura de Pantalla 2023-01-05 a la(s) 3 32 00" src="https://user-images.githubusercontent.com/94152243/210747592-dbc5968d-daf4-4450-a17b-fcf63ae1b7f6.png">
 
 
 
@@ -47,7 +47,7 @@ _Las técnologias utilizadas para el desarrollo fueron:_
 
 * **Aldahir Mayorga** - *Trabajo Inicial* - [AldaMayorgaDev](https://github.com/AldaMayorgaDev)
 
-<img width="890" alt="Captura de Pantalla 2023-01-05 a la(s) 3 32 00" src="https://user-images.githubusercontent.com/94152243/210747592-dbc5968d-daf4-4450-a17b-fcf63ae1b7f6.png">
+
 
 
 
