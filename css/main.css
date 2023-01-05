@@ -102,11 +102,20 @@ img {
 
 .header {
   min-height: 60rem;
-  background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 5rem 0;
+}
+
+.notavif.notwebp .header{
+    background-image: url(../img/hero.jpg);
+}
+.webp .header{
+    background-image: url(../img/hero.webp);
+}
+.avif .header{
+    background-image: url(../img/hero.avif);
 }
 
 .contenido-header{
@@ -176,16 +185,31 @@ img {
 .telefono{
     display: flex;
 }
+
+.notavif.notwebp .telefono::before{
+    background-image: url(../img/telefono.png);
+}
+
+.wepb .telefono::before{
+    background-image: url(../img/telefono.webp);
+}
+.avif .telefono::before{
+    background-image: url(../img/telefono.avif);
+}
+
 .telefono::before{
     content: '';
     display: block;
     width: 4rem;
     height: 4rem;
-    background-image: url(../img/telefono.png);
+
     background-repeat: no-repeat;
     background-position: center center;
     margin-right: 1rem;
 }
+
+
+
 .header a{
     color: var(--blanco);
     font-size: 2rem;
@@ -258,10 +282,21 @@ img {
 .nosotros {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    background-image: url(../img/nosotros.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+
+.notavif.notwebp .nosotros{
+    background-image: url(../img/nosotros.jpg);
+}
+
+.wepb .nosotros{
+    background-image: url(../img/nosotros.webp);
+}
+.avif .nosotros{
+    background-image: url(../img/nosotros.avif);
+}
+
 @media (min-width: 992px) { 
     .nosotros{
         grid-template-columns: repeat(3,1fr);
@@ -318,9 +353,15 @@ img {
     text-align: justify;
 }
 
-.basico{
+.notavif.notwebp .basico{
     background-image: url(../img/modelo_basico.jpg);
+}
 
+.wepb .basico{
+    background-image: url(../img/modelo_basico.webp);
+}
+.avif .basico{
+    background-image: url(../img/modelo_basico.avif);
 }
 @media (min-width: 768px) { 
     .basico{
@@ -349,8 +390,15 @@ img {
     }
 }
 
-.premier{
+.notavif.notwebp .premier{
     background-image: url(../img/modelo_premier.jpg);
+}
+
+.wepb .premier{
+    background-image: url(../img/modelo_premier.webp);
+}
+.avif .premier{
+    background-image: url(../img/modelo_premier.avif);
 }
 
 @media (min-width: 768px) { 
@@ -382,9 +430,16 @@ img {
     }
 }
 
-.elite{
+
+.notavif.notwebp .elite{
     background-image: url(../img/modelo_elite.jpg);
-    
+}
+
+.wepb .elite{
+    background-image: url(../img/modelo_elite.webp);
+}
+.avif .elite{
+    background-image: url(../img/modelo_elite.avif);
 }
 @media (min-width: 768px) { 
     .elite{
@@ -480,7 +535,7 @@ img {
 
 .footer {
     height: 50rem;
-    background-image: url(../img/footer_bg.jpg);
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -490,6 +545,17 @@ img {
     justify-content: flex-end;
 
     color: var(--blanco);
+}
+
+.notavif.notwebp .footer{
+    background-image: url(../img/footer_bg.jpg);
+}
+
+.wepb .footer{
+    background-image: url(../img/footer_bg.webp);
+}
+.avif .footer{
+    background-image: url(../img/footer_bg.avif);
 }
 
 .footer a{
